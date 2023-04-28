@@ -14,8 +14,8 @@ TagManager:
   - Doors
   - Player
   - Structures
-  - 
-  - 
+  - Hazards
+  - Enemies
   - 
   - 
   - 
@@ -44,11 +44,17 @@ TagManager:
   - name: Background
     uniqueID: 851799181
     locked: 0
-  - name: Structures
-    uniqueID: 2067965965
+  - name: Hazards
+    uniqueID: 2639041873
     locked: 0
   - name: Doors
     uniqueID: 3060823019
+    locked: 0
+  - name: Structures
+    uniqueID: 2067965965
+    locked: 0
+  - name: Enemies
+    uniqueID: 686105569
     locked: 0
   - name: Player
     uniqueID: 3147605415

@@ -1,0 +1,1722 @@
+fileFormatVersion: 2
+guid: aca934408fbaa82408c120ef821e616a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354cc6c5139cac54f9dddf2013e4fe0b
+      internalID: 1153949868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 128
+        width: 30
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175165ca25934a04898c0933aeb4d092
+      internalID: -860869355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbcae6e1785df543a8a9b20ba55708f
+      internalID: -1812972564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 224
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3a144f90cd7be4eb351a3353716c2e
+      internalID: -1858491075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 224
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a41d0154eb82824f8e994f9fd6f6765
+      internalID: 1321555244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 224
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1fea3744c460d4fb5e863f028f16b6
+      internalID: -94401192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 224
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b5d2c65c5ad274eaa1db53b4549855
+      internalID: 1710798431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 224
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8921fdb8f7e740a68c016ea4efe41
+      internalID: -918900518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 224
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f8212b44e46942905d5a0237ef298
+      internalID: 1104869601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c6514d0a3d4a45bfdf73353c131ad
+      internalID: 1646191479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f3fb8346e51114c9fc5ffb9b9df2c0
+      internalID: 22959192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1285e78cc3aa72499e65890d4e96ab3
+      internalID: -428874811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33596f00482402c428d04df7dbb181cb
+      internalID: -582869300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 192
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5287d069b53994f80488118c3798f4
+      internalID: 528250571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 192
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc78007b115ee42977e359f30b191b
+      internalID: 1382371943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 192
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb3270820b1ea14a843d4882e640d56
+      internalID: -933401637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c47b17c788c324199e7cf3bc954a9e
+      internalID: 912542664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd437419c20b44d99a5ff1bc80b34f
+      internalID: 604630240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfb9d4c7c7e97544acc77d7bce7d12e
+      internalID: -1012417773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e94dee36d850a4c98afe99cbc53aff
+      internalID: 619467985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88abf8c2c5bc44c47a94ec97fe3b06fc
+      internalID: -516656696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac65d5da61f99f34a9246b535f033fda
+      internalID: -105721677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 160
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48d1f23c68b2f74085b42a67a5be11c
+      internalID: 1904014221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 160
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c11a203a07144f831fc9e68938b10
+      internalID: -1528058899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 160
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90034bdca51558c46ae5c97e709db99e
+      internalID: 1219632006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ff4ace2934cb847907bf88bcd86329
+      internalID: -1728582887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f36b5c23efb964da3798e07878d3bb
+      internalID: -713941388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e9a6f6ce96f5e45ac8a104669c8eee
+      internalID: -781481465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb7e430459874549b497bf98b105987
+      internalID: -2043703219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 128
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae13947cc14e6a4bb327b5e5ca2bae1
+      internalID: 1378397538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947dbb3dc6465c1408cf8826267ff613
+      internalID: 938386211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 128
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2744e8ffe8d2e69418b78a1eda492f33
+      internalID: -209434532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 128
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b20febdab41d849a6c28902bcad71a
+      internalID: -669923757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75df46f42ab258e43a3486ada079393b
+      internalID: 692523412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 96
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792dcceebc302545815133ca8dcf82e
+      internalID: 819991891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab100f76b226c66429048b31ba7f8ad6
+      internalID: -2049366912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c213222a49dcad7438b552d1c978d60e
+      internalID: -26716269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98273243cd766164cba5bfa69113baee
+      internalID: -771657204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_38
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 96
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f43d9db6851f4e8dfaa4917bcd887
+      internalID: 496025865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_39
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 93
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee4f6cdf5d6b284abdd6c32425493a6
+      internalID: 1934429286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 93
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51adfd327557d14bb13a06317e25ca4
+      internalID: -718388357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_41
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 94
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1ca1611e58ad44d81b45cf10efd424
+      internalID: 580902815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8246213969314c64bb0ac5248cd5b7e3
+      internalID: -1319877935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43a24d4fea06c4468c94cc9ac91a25b
+      internalID: 953688905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_44
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99aa805c4d7e6f409b3fd9cb6e77f11
+      internalID: -447847856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1de7b234e78b544c8945f3a72bbcc98
+      internalID: 338565081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4389cf810a6457c4195bda77e2e4fc94
+      internalID: 2130803407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_47
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648f1de55dfe7194ea848a9597d1fc28
+      internalID: -226350332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 52
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1af760f3eecc3a40b611a2d22ad0cb4
+      internalID: -1440718418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec7f15066d1b714ca06b5a4f4ccfd89
+      internalID: -1700392354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab20b30bd2daa429decce76f370d01
+      internalID: -671655628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 32
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12445323a86247d438a55eb57b6222dd
+      internalID: 911519151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bcf1cd1c7532b4fb09e80778ddb11b
+      internalID: -1441792477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 32
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc8c47c8871f84ba00d151b658f35d
+      internalID: 1619917091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_54
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 32
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74662ebf3e357e9429b763098fecdea6
+      internalID: -313890438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_55
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f14a29cfa4fade45bcdf4fc547f739d
+      internalID: 1955530770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_56
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 26
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dc47a3ee7b8894fa22d21df7cf3f6e
+      internalID: 853793022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_57
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 26
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91a92cabcdc7a943a48c26381887c95
+      internalID: 661263926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_58
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 10
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f357bcb1b4d4840ba35ec25c89c5e2
+      internalID: -1759211036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_59
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b1f0327a9960e44ba953ee630325c6
+      internalID: 1504649340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969220aa902c18d47a98a35938b9812d
+      internalID: -164151028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_61
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da403debbba4d66479ba877e8e76b3f9
+      internalID: 1334372177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c3cf2dbb0fc2418f38a04d8b36093
+      internalID: 1162470400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df8ae68a10598048ba0fa182a23cc76
+      internalID: 505166602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_64
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967e5c27ed34f84f9d5fae7025f6b87
+      internalID: -1545968906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a7789f2dfe0534890ca54da6872481
+      internalID: -1902253302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_66
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 10
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6786eadcfd1f93943962e0ab8ef50048
+      internalID: 1646553422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_67
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 8
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383ce606d70cba149b513449df81baeb
+      internalID: 311106130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_68
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46e5f56ae6991540804080ef5be397a
+      internalID: -68487630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_69
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 7
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba96433702ac046a78960011ce19a6
+      internalID: 1323738069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_Maker_VX_Sprites_by_NWinmore_70
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 7
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871245db63ea16a43976506ad8c16b88
+      internalID: -1818555380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG_Maker_VX_Sprites_by_NWinmore_6: 1710798431
+      RPG_Maker_VX_Sprites_by_NWinmore_55: 1955530770
+      RPG_Maker_VX_Sprites_by_NWinmore_0: 1153949868
+      RPG_Maker_VX_Sprites_by_NWinmore_36: -26716269
+      RPG_Maker_VX_Sprites_by_NWinmore_22: 1904014221
+      RPG_Maker_VX_Sprites_by_NWinmore_42: -1319877935
+      RPG_Maker_VX_Sprites_by_NWinmore_60: -164151028
+      RPG_Maker_VX_Sprites_by_NWinmore_26: -713941388
+      RPG_Maker_VX_Sprites_by_NWinmore_31: -209434532
+      RPG_Maker_VX_Sprites_by_NWinmore_28: -2043703219
+      RPG_Maker_VX_Sprites_by_NWinmore_29: 1378397538
+      RPG_Maker_VX_Sprites_by_NWinmore_2: -1812972564
+      RPG_Maker_VX_Sprites_by_NWinmore_48: -1440718418
+      RPG_Maker_VX_Sprites_by_NWinmore_56: 853793022
+      RPG_Maker_VX_Sprites_by_NWinmore_63: 505166602
+      RPG_Maker_VX_Sprites_by_NWinmore_21: -105721677
+      RPG_Maker_VX_Sprites_by_NWinmore_34: 819991891
+      RPG_Maker_VX_Sprites_by_NWinmore_53: 1619917091
+      RPG_Maker_VX_Sprites_by_NWinmore_47: -226350332
+      RPG_Maker_VX_Sprites_by_NWinmore_15: -933401637
+      RPG_Maker_VX_Sprites_by_NWinmore_69: 1323738069
+      RPG_Maker_VX_Sprites_by_NWinmore_43: 953688905
+      RPG_Maker_VX_Sprites_by_NWinmore_33: 692523412
+      RPG_Maker_VX_Sprites_by_NWinmore_68: -68487630
+      RPG_Maker_VX_Sprites_by_NWinmore_57: 661263926
+      RPG_Maker_VX_Sprites_by_NWinmore_62: 1162470400
+      RPG_Maker_VX_Sprites_by_NWinmore_40: -718388357
+      RPG_Maker_VX_Sprites_by_NWinmore_39: 1934429286
+      RPG_Maker_VX_Sprites_by_NWinmore_52: -1441792477
+      RPG_Maker_VX_Sprites_by_NWinmore_45: 338565081
+      RPG_Maker_VX_Sprites_by_NWinmore_51: 911519151
+      RPG_Maker_VX_Sprites_by_NWinmore_8: 1104869601
+      RPG_Maker_VX_Sprites_by_NWinmore_65: -1902253302
+      RPG_Maker_VX_Sprites_by_NWinmore_58: -1759211036
+      RPG_Maker_VX_Sprites_by_NWinmore_27: -781481465
+      RPG_Maker_VX_Sprites_by_NWinmore_10: 22959192
+      RPG_Maker_VX_Sprites_by_NWinmore_66: 1646553422
+      RPG_Maker_VX_Sprites_by_NWinmore_37: -771657204
+      RPG_Maker_VX_Sprites_by_NWinmore_19: 619467985
+      RPG_Maker_VX_Sprites_by_NWinmore_17: 604630240
+      RPG_Maker_VX_Sprites_by_NWinmore_24: 1219632006
+      RPG_Maker_VX_Sprites_by_NWinmore_20: -516656696
+      RPG_Maker_VX_Sprites_by_NWinmore_25: -1728582887
+      RPG_Maker_VX_Sprites_by_NWinmore_50: -671655628
+      RPG_Maker_VX_Sprites_by_NWinmore_35: -2049366912
+      RPG_Maker_VX_Sprites_by_NWinmore_5: -94401192
+      RPG_Maker_VX_Sprites_by_NWinmore_4: 1321555244
+      RPG_Maker_VX_Sprites_by_NWinmore_11: -428874811
+      RPG_Maker_VX_Sprites_by_NWinmore_3: -1858491075
+      RPG_Maker_VX_Sprites_by_NWinmore_12: -582869300
+      RPG_Maker_VX_Sprites_by_NWinmore_30: 938386211
+      RPG_Maker_VX_Sprites_by_NWinmore_23: -1528058899
+      RPG_Maker_VX_Sprites_by_NWinmore_59: 1504649340
+      RPG_Maker_VX_Sprites_by_NWinmore_38: 496025865
+      RPG_Maker_VX_Sprites_by_NWinmore_70: -1818555380
+      RPG_Maker_VX_Sprites_by_NWinmore_46: 2130803407
+      RPG_Maker_VX_Sprites_by_NWinmore_61: 1334372177
+      RPG_Maker_VX_Sprites_by_NWinmore_64: -1545968906
+      RPG_Maker_VX_Sprites_by_NWinmore_18: -1012417773
+      RPG_Maker_VX_Sprites_by_NWinmore_41: 580902815
+      RPG_Maker_VX_Sprites_by_NWinmore_67: 311106130
+      RPG_Maker_VX_Sprites_by_NWinmore_44: -447847856
+      RPG_Maker_VX_Sprites_by_NWinmore_9: 1646191479
+      RPG_Maker_VX_Sprites_by_NWinmore_1: -860869355
+      RPG_Maker_VX_Sprites_by_NWinmore_13: 528250571
+      RPG_Maker_VX_Sprites_by_NWinmore_14: 1382371943
+      RPG_Maker_VX_Sprites_by_NWinmore_54: -313890438
+      RPG_Maker_VX_Sprites_by_NWinmore_7: -918900518
+      RPG_Maker_VX_Sprites_by_NWinmore_49: -1700392354
+      RPG_Maker_VX_Sprites_by_NWinmore_16: 912542664
+      RPG_Maker_VX_Sprites_by_NWinmore_32: -669923757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

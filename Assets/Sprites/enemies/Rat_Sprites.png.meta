@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4de5856a4fd17e8418f0a91f9e54dbca
+guid: 19f9598ed6c81f24592e44d8ebc061c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 13
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,832 +143,643 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset 1_0
+      name: Rat_Sprites_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 593
-        width: 126
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 808fb49e6e5edd243b55ccbe1202322e
-      internalID: -1920091552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 593
-        width: 175
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5ebedbcf27982141895d479578cc7b2
-      internalID: 202916446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_2
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 608
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a77806d887260f4bb3e04404ede8b6b
-      internalID: 1082910268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_3
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 608
-        width: 57
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a464e5bf198e854399dd73f03fa51f5
-      internalID: -1963836686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 608
+        x: 8
+        y: 224
         width: 16
-        height: 30
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc35b1e91685cc46bd885410a19d2da
-      internalID: -1949365182
+      spriteID: cb46a9f02dff412459b194114d95c971
+      internalID: 817161059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_5
+      name: Rat_Sprites_1
       rect:
         serializedVersion: 2
-        x: 417
-        y: 608
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 802ebed2e04ded647aa77b6beb1f4b0a
-      internalID: 1721904518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_6
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 127
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dfc9bae25f5817449edfeeb435f5141
-      internalID: 1903309062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_7
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 97
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5943162dd7b73e4cb1b16bd295a1c91
-      internalID: -48093281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_8
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 96
-        width: 33
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d499a82110864364283897d11466c503
-      internalID: -1524727549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_9
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 128
+        x: 39
+        y: 224
         width: 17
-        height: 17
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17fc5a00f1b3eb6429b8f493693dbbe8
-      internalID: 256650142
+      spriteID: 03a68fa680b3d7842a1bb36f8a22089d
+      internalID: 169821914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_10
+      name: Rat_Sprites_2
       rect:
         serializedVersion: 2
-        x: 240
-        y: 95
-        width: 32
-        height: 48
+        x: 70
+        y: 224
+        width: 18
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95af2cf436369444d9a1a1ebe1ea6e22
-      internalID: 1252469385
+      spriteID: abf3a729d03489c46a18b42ba2bc5320
+      internalID: 1141334011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_11
+      name: Rat_Sprites_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 126
+        x: 103
+        y: 224
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d46a1228c8f249a8c7c8271a8ab71
+      internalID: -772450618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4791d02d941db64a80c2b669b3c16b3
+      internalID: -1433479774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
         width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a026a83c8c27a4748808be7e736894f6
-      internalID: 103770613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_12
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 97
-        width: 31
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 165f79dc1ffe12e49b35f420a05d9b15
-      internalID: -739364645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_13
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 128
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dfb1917e29a27f47ba30abb3401c648
-      internalID: -1178941038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_14
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 12
-        width: 11
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cdba9315f214524f9eed79a59efc7f4
-      internalID: 268535769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_15
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 12
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fd9e1a814a80414b9e1e234d972090e
-      internalID: -507354065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_16
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 36
-        width: 29
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63e1dc84c8430754bb097c6ce8d6f623
-      internalID: 2006627443
+      spriteID: ef37a37598dcdf64f89856596459e6df
+      internalID: 977814522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_17
+      name: Rat_Sprites_6
       rect:
         serializedVersion: 2
-        x: 409
-        y: 15
-        width: 31
-        height: 11
+        x: 40
+        y: 193
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c481b681e82ea444588964e279231d27
-      internalID: -1088695308
+      spriteID: cf468840e35750e4aa62fd89ee4eec85
+      internalID: -1729461362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_18
+      name: Rat_Sprites_7
       rect:
         serializedVersion: 2
-        x: 304
-        y: 480
-        width: 48
-        height: 48
+        x: 69
+        y: 195
+        width: 19
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da0c80db4baa5bd4b96bd484364b65fa
-      internalID: 901421241
+      spriteID: 8fe4fc8fa064f804aab1aeb0c067ca26
+      internalID: -221697844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_19
+      name: Rat_Sprites_8
       rect:
         serializedVersion: 2
         x: 102
-        y: 162
-        width: 68
-        height: 43
+        y: 195
+        width: 18
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae62632dacc98184abd687239ed418d3
-      internalID: 1035938531
+      spriteID: 0e89e67f895cd414091075dafc05fb07
+      internalID: -458747993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_20
+      name: Rat_Sprites_9
       rect:
         serializedVersion: 2
-        x: 174
-        y: 177
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d86ac411c4d75ad488f9715671273a6a
-      internalID: -2123340030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_21
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 161
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adbf645da2b23474a9b12617c2c42325
-      internalID: 321835382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_22
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 30
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4d44eb1f2a7cd4e9c32eae19266d60
-      internalID: -1809290185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_23
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 17
+        x: 136
+        y: 192
         width: 16
-        height: 28
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03288fc48a52ecb43a6fa778ae8ce24c
-      internalID: 1437884149
+      spriteID: 03a805213a0b62149bf6790a366983a9
+      internalID: 850181717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_24
+      name: Rat_Sprites_10
       rect:
         serializedVersion: 2
-        x: 209
-        y: 18
-        width: 30
-        height: 27
+        x: 8
+        y: 160
+        width: 16
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f2ce272faafaf64aa111396258cb6fa
-      internalID: 1488049170
+      spriteID: 061d7d9d615505f4da7f8528880a1adf
+      internalID: 1916425663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_25
+      name: Rat_Sprites_11
       rect:
         serializedVersion: 2
-        x: 239
-        y: 17
-        width: 15
-        height: 28
+        x: 38
+        y: 160
+        width: 18
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bbd266212f918b4889e87555d656c00
-      internalID: -1973734994
+      spriteID: d030ac3ce89ca614d96886e0c810faeb
+      internalID: 1058759074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_26
+      name: Rat_Sprites_12
       rect:
         serializedVersion: 2
-        x: 161
-        y: 98
-        width: 14
-        height: 14
+        x: 70
+        y: 160
+        width: 18
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe126d0449765e4e91163cdcc5ea919
-      internalID: 1137991922
+      spriteID: 05f5aade35ebf89418904e2653560cc8
+      internalID: 2102231579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_27
+      name: Rat_Sprites_13
       rect:
         serializedVersion: 2
-        x: 48
-        y: 97
-        width: 15
-        height: 15
-      alignment: 9
-      pivot: {x: 0.52881545, y: 0.5000036}
+        x: 102
+        y: 160
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9183b0408dc9c874d8d469d74675f1e7
-      internalID: -612698752
+      spriteID: 46c60bc4e01df3d4d971ce301e140aad
+      internalID: 1924018146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_28
+      name: Rat_Sprites_14
       rect:
         serializedVersion: 2
-        x: 273
+        x: 136
+        y: 160
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6959a2621d8548e4cb316bf7d5f019db
+      internalID: -76346642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0217782b04c8af4f98df830f3f86e55
+      internalID: 1409979613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab38d7fb707b8547a8bb49f554fd0ee
+      internalID: -1308463534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8497c6113e016e46ba10de144bc3e94
+      internalID: -278737528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b8a9fb9fa45340993234e5c3dd210
+      internalID: -2000111393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adaa27c021bf64db15f4caa50f5697
+      internalID: 516802356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 8
         y: 96
-        width: 15
-        height: 16
+        width: 17
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f390a05b02f9e5f44ab600c9722fa64a
-      internalID: 103130512
+      spriteID: ad4235b10501fb646a4e976984f27dc4
+      internalID: 1758882180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_29
+      name: Rat_Sprites_21
       rect:
         serializedVersion: 2
-        x: 384
-        y: 98
-        width: 15
+        x: 40
+        y: 96
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c9e16bc464aab4191eb580ac9dd4f7
+      internalID: 23838837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6873fcdd76522a4f8215e7c5b415c0b
+      internalID: -1879120551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6bb13ba30148844bfc2c67917d1895
+      internalID: -740271661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df63ef7197209f47a8dfdfd0d651241
+      internalID: -2135511785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3e50216331047478ac209c5f11a245
+      internalID: 154355316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 67
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9484134868688cc4a9d8de8411beaedd
+      internalID: 192978488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 67
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad764b8051bb044ca12225a72ff5b54
+      internalID: 1813846091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 65
+        width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d01c6df4f14594790ea8d5ce43ad7c
-      internalID: 1923764236
+      spriteID: 7686cd9943d758e4e89c1e256bba4d61
+      internalID: -213381409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_30
+      name: Rat_Sprites_29
       rect:
         serializedVersion: 2
-        x: 336
-        y: 255
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00cf461d665cfbc458e1d589afe01f21
-      internalID: 1251261653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_31
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 226
-        width: 33
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 658d03451e2e0f44189d7a09e34d8adc
-      internalID: -1527064012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_32
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 354
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3feb1cd7054bc2349ba78547b177d29e
-      internalID: 1707943009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_33
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 354
+        x: 136
+        y: 64
         width: 15
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728864f6a795ab84197bfd2da01a79c8
-      internalID: -1572104858
+      spriteID: 481c11896945cea4bbb9b1eabf1d70e5
+      internalID: -1095262602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_34
+      name: Rat_Sprites_30
       rect:
         serializedVersion: 2
-        x: 369
-        y: 175
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fff9171deb9dd444b8bebb3409839770
-      internalID: -743139734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_35
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 207
-        width: 32
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a0a2b8f0c1176a4ab57f468bc577361
-      internalID: -1392157604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_36
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 208
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c612aecdec5aad4988dc5ab046bce49
-      internalID: 690409334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_37
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 208
+        x: 8
+        y: 32
         width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b904ca4fe3da59c42888bbbcb9ecd70b
-      internalID: -299564232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_38
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 208
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2406dc363c177394aab351d4e2439e9b
-      internalID: 216345997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 1_39
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 256
-        width: 16
-        height: 16
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,20 +787,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32a710acb8048c489733116a42f2d2d
-      internalID: 590031161
+      spriteID: fe682175e4c117b40be018c2e3d69934
+      internalID: -1504803749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 1_40
+      name: Rat_Sprites_31
       rect:
         serializedVersion: 2
-        x: 432
-        y: 272
-        width: 16
-        height: 16
+        x: 40
+        y: 32
+        width: 18
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -997,8 +808,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 792024db15bb49d469d263a76bae5c86
-      internalID: 1590058466
+      spriteID: f46ccee40cef21849afd31d0dcc628e5
+      internalID: -1803188677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249383bd8432604db8276d3ec87362e
+      internalID: -996966769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edf2443852dc6a4786ea976456c16ee
+      internalID: 263604999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861cde78472f8e645a7bc1fc648b9842
+      internalID: -149236653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0cd6ea04fd6ab4f819f5e83cb4d13d
+      internalID: -121980302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e48aab72901019498ef2cc54ca91f4e
+      internalID: 1027788041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e22817d69c6904a8c2b955964a70b7
+      internalID: -1228260999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da34a059ca1e55741940aa615dfcf7cd
+      internalID: -1453618651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dc80206b169ad47bfea55b20954681
+      internalID: -219892418
       vertices: []
       indices: 
       edges: []
@@ -1014,47 +993,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tileset 1_11: 103770613
-      tileset 1_27: -612698752
-      tileset 1_36: 690409334
-      tileset 1_1: 202916446
-      tileset 1_18: 901421241
-      tileset 1_2: 1082910268
-      tileset 1_40: 1590058466
-      tileset 1_17: -1088695308
-      tileset 1_21: 321835382
-      tileset 1_10: 1252469385
-      tileset 1_3: -1963836686
-      tileset 1_28: 103130512
-      tileset 1_29: 1923764236
-      tileset 1_19: 1035938531
-      tileset 1_0: -1920091552
-      tileset 1_8: -1524727549
-      tileset 1_33: -1572104858
-      tileset 1_37: -299564232
-      tileset 1_9: 256650142
-      tileset 1_32: 1707943009
-      tileset 1_14: 268535769
-      tileset 1_20: -2123340030
-      tileset 1_35: -1392157604
-      tileset 1_12: -739364645
-      tileset 1_22: -1809290185
-      tileset 1_26: 1137991922
-      tileset 1_25: -1973734994
-      tileset 1_5: 1721904518
-      tileset 1_38: 216345997
-      tileset 1_6: 1903309062
-      tileset 1_13: -1178941038
-      tileset 1_15: -507354065
-      tileset 1_24: 1488049170
-      tileset 1_31: -1527064012
-      tileset 1_16: 2006627443
-      tileset 1_34: -743139734
-      tileset 1_7: -48093281
-      tileset 1_39: 590031161
-      tileset 1_23: 1437884149
-      tileset 1_4: -1949365182
-      tileset 1_30: 1251261653
+      Rat_Sprites_10: 1916425663
+      Rat_Sprites_22: -1879120551
+      Rat_Sprites_37: -1228260999
+      Rat_Sprites_3: -772450618
+      Rat_Sprites_11: 1058759074
+      Rat_Sprites_15: 1409979613
+      Rat_Sprites_33: 263604999
+      Rat_Sprites_24: -2135511785
+      Rat_Sprites_7: -221697844
+      Rat_Sprites_25: 154355316
+      Rat_Sprites_19: 516802356
+      Rat_Sprites_2: 1141334011
+      Rat_Sprites_29: -1095262602
+      Rat_Sprites_39: -219892418
+      Rat_Sprites_16: -1308463534
+      Rat_Sprites_4: -1433479774
+      Rat_Sprites_21: 23838837
+      Rat_Sprites_28: -213381409
+      Rat_Sprites_26: 192978488
+      Rat_Sprites_36: 1027788041
+      Rat_Sprites_12: 2102231579
+      Rat_Sprites_30: -1504803749
+      Rat_Sprites_1: 169821914
+      Rat_Sprites_34: -149236653
+      Rat_Sprites_20: 1758882180
+      Rat_Sprites_38: -1453618651
+      Rat_Sprites_8: -458747993
+      Rat_Sprites_14: -76346642
+      Rat_Sprites_5: 977814522
+      Rat_Sprites_0: 817161059
+      Rat_Sprites_13: 1924018146
+      Rat_Sprites_27: 1813846091
+      Rat_Sprites_18: -2000111393
+      Rat_Sprites_17: -278737528
+      Rat_Sprites_32: -996966769
+      Rat_Sprites_31: -1803188677
+      Rat_Sprites_9: 850181717
+      Rat_Sprites_35: -121980302
+      Rat_Sprites_23: -740271661
+      Rat_Sprites_6: -1729461362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

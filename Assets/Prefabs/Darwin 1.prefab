@@ -185,7 +185,7 @@ Transform:
   m_Children:
   - {fileID: 5943343496571155241}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5943343497490040260
 SpriteRenderer:
@@ -314,11 +314,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 18
-  jumpSpeed: 5
-  climbSpeed: 5
   deathKick: {x: 1, y: 1}
-  bullet: {fileID: 0}
-  gun: {fileID: 0}
+  bullet: {fileID: 6716316407649412483, guid: aa433fe93c2a9f841b6ee218cbdb819b, type: 3}
+  gun: {fileID: 5943343496571155241}
 --- !u!114 &5943343497490040318
 MonoBehaviour:
   m_ObjectHideFlags: 0

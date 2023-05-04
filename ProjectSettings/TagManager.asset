@@ -16,7 +16,7 @@ TagManager:
   - Structures
   - Hazards
   - Enemies
-  - 
+  - Ally
   - 
   - 
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 686105569
+    locked: 0
+  - name: Ally
+    uniqueID: 2710558699
     locked: 0
   - name: Player
     uniqueID: 3147605415

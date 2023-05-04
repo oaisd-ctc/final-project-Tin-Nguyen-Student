@@ -133,7 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 115402800}
   - component: {fileID: 115402799}
-  m_Layer: 0
+  - component: {fileID: 115402801}
+  m_Layer: 11
   m_Name: ShopKeeper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +179,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1147361881
+  m_SortingLayerID: -1584408597
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1767942971, guid: ac337e21190ca6b4e9af78b256489365, type: 3}
@@ -207,6 +208,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &115402801
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115402798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.012139559}
+  m_Size: {x: 0.93333334, y: 1.0242791}
+  m_Direction: 0
 --- !u!1 &117268523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4754,7 +4790,8 @@ GameObject:
   m_Component:
   - component: {fileID: 683809977}
   - component: {fileID: 683809976}
-  m_Layer: 0
+  - component: {fileID: 683809978}
+  m_Layer: 11
   m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4799,7 +4836,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1147361881
+  m_SortingLayerID: -1584408597
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1637518263, guid: b19a81432e8e67f43be280e08391956f, type: 3}
@@ -4828,6 +4865,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &683809978
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683809975}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.7058824, y: 0.5882353}
+  m_Direction: 0
 --- !u!1 &1469748865
 GameObject:
   m_ObjectHideFlags: 0

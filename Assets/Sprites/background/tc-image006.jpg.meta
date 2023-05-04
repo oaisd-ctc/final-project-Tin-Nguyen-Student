@@ -1364,7 +1364,7 @@ TextureImporter:
       name: tc-image006_58
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 65
         width: 31
         height: 31
@@ -1570,6 +1570,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: tc-image006_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 126
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673dd47e2aa24c41bc4e079b37d45be
+      internalID: -455390158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tc-image006_69
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 220
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442bac48fb4ebcf459b5b6ef879a692e
+      internalID: -2009786134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1581,13 +1623,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      tc-image006_53: -708226949
       tc-image006_39: -1597654
       tc-image006_65: -304163591
+      tc-image006_69: -2009786134
       tc-image006_41: 1359760538
       tc-image006_27: 106258169
       tc-image006_31: 2018288544
       tc-image006_66: -2038574777
-      tc-image006_57: -892352921
       tc-image006_3: 201629049
       tc-image006_42: 154975140
       tc-image006_2: 1159434917
@@ -1643,12 +1686,13 @@ TextureImporter:
       tc-image006_58: 1537954695
       tc-image006_35: 1608090106
       tc-image006_25: 164692548
+      tc-image006_68: -455390158
       tc-image006_36: 1320818449
       tc-image006_46: -1645026156
       tc-image006_45: 1988681841
       tc-image006_1: 1483468533
+      tc-image006_57: -892352921
       tc-image006_19: -451581498
-      tc-image006_53: -708226949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

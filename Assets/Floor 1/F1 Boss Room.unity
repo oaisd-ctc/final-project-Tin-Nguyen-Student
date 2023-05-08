@@ -3469,6 +3469,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5943343496571155241, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0535374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943343496571155241, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1709
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943343496571155242, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_Name
       value: Darwin 1

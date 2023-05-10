@@ -18,7 +18,7 @@ TagManager:
   - Enemies
   - Ally
   - Bullet
-  - 
+  - Barrier
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Structures
     uniqueID: 2067965965
+    locked: 0
+  - name: Barrier
+    uniqueID: 2900625885
     locked: 0
   - name: Enemies
     uniqueID: 686105569

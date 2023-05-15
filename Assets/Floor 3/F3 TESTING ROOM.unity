@@ -346,6 +346,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3022086315316436701, guid: a8754ab23b5210844bd13346f99941de, type: 3}
       insertIndex: -1
       addedObject: {fileID: 410888192}
+    - targetCorrespondingSourceObject: {fileID: 3022086315316436701, guid: a8754ab23b5210844bd13346f99941de, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 410888193}
   m_SourcePrefab: {fileID: 100100000, guid: a8754ab23b5210844bd13346f99941de, type: 3}
 --- !u!1 &410888191 stripped
 GameObject:
@@ -448,6 +451,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &410888193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410888191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538e47329b2a79e469126c023ed53907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingClip: {fileID: 8300000, guid: 23e3028d28d52d14da29fe8e628ce904, type: 3}
+  shootingVolume: 1
 --- !u!1 &424976958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8880456990347412991, guid: aa433fe93c2a9f841b6ee218cbdb819b, type: 3}

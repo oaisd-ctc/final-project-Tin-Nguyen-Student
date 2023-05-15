@@ -4224,7 +4224,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2025478402}
---- !u!1001 &1344028372
+--- !u!1001 &1294587098
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4242,11 +4242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.46
+      value: -5.7538795
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.49
+      value: -4.400115
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.z

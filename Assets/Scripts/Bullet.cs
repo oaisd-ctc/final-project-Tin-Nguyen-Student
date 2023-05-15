@@ -1,10 +1,14 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Bullet : MonoBehaviour
 {
     [SerializeField] float bulletSpeed = 20f;
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
     Rigidbody2D myRigidbody;
     PlayerMovement player;
     float xSpeed;
@@ -34,6 +38,13 @@ public class Bullet : MonoBehaviour
     {
         Destroy(gameObject);    
     }
+
+    void OnFire(InputValue value)
+    {
+        Instantiate(bullet, gun.position, transform.rotation);
+    }
+
+   
 
 }
 

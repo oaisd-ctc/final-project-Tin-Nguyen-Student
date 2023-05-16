@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1147361881
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9195e3404ca033e4f8cd67202c6426da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 5943343497490040318}
   - component: {fileID: 5943343497490040319}
   - component: {fileID: 5943343497490040317}
+  - component: {fileID: -7955696484223960087}
   m_Layer: 7
   m_Name: Darwin 1
   m_TagString: Player
@@ -226,7 +227,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1147361881
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -293041111, guid: 3d7585783b674344692f2f33918281fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -317,6 +318,7 @@ MonoBehaviour:
   deathKick: {x: 1, y: 1}
   bullet: {fileID: 6716316407649412483, guid: aa433fe93c2a9f841b6ee218cbdb819b, type: 3}
   gun: {fileID: 6236441181143689558, guid: ec88a4c3dd240cf4b9f760214aa66dd2, type: 3}
+  moveSpeed: 5
 --- !u!114 &5943343497490040318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,3 +384,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &-7955696484223960087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5943343497490040261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

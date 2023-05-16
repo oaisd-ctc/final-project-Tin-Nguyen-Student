@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
+    public float moveSpeed = 5f;
+
+    Vector2 movement;
     
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
@@ -34,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
         Run();
         FlipSprite();
         Die();
+        myAnimator.SetFloat("Horizontal", movement.x);
+        myAnimator.SetFloat("Vertical", movement.y);
+        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     void OnFire(InputValue value)
@@ -50,22 +56,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2 (moveInput.x * runSpeed, myRigidbody.velocity.y);
-        myRigidbody.velocity = playerVelocity;
-
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-        myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
     }
 
+    public void FixedUpdate() 
+    {
+        myRigidbody.MovePosition(myRigidbody.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+    
     void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed)
-        {
+        
             transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
-        }
+    
     }
 
 

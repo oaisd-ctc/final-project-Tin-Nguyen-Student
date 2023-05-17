@@ -717,6 +717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Death Bringer
       objectReference: {fileID: 0}
+    - target: {fileID: 8576509269626777432, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

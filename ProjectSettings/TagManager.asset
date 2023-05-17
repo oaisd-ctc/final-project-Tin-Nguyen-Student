@@ -47,11 +47,11 @@ TagManager:
   - name: Hazards
     uniqueID: 2639041873
     locked: 0
-  - name: Structures
-    uniqueID: 2067965965
-    locked: 0
   - name: Barrier
     uniqueID: 2900625885
+    locked: 0
+  - name: Structures
+    uniqueID: 2067965965
     locked: 0
   - name: Doors
     uniqueID: 3060823019

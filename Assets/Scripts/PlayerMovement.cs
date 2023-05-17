@@ -35,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         Run();
-        FlipSprite();
         Die();
         myAnimator.SetFloat("Horizontal", movement.x);
         myAnimator.SetFloat("Vertical", movement.y);
@@ -60,21 +59,6 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
     }
-
-    public void FixedUpdate() 
-    {
-        myRigidbody.MovePosition(myRigidbody.position + movement * moveSpeed * Time.fixedDeltaTime);
-    }
-    
-    void FlipSprite()
-    {
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-
-        
-            transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
-    
-    }
-
 
     void Die()
     {

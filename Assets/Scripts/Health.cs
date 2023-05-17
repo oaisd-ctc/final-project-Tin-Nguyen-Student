@@ -4,49 +4,59 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 3;
+    public int currentMaxHealth;
     public int currentHealth;
     Rigidbody2D myRigidbody;
     public Animator anim;
-    void Start()
+    Rigidbody2D rb;
+    
+    public int Healths
     {
-        currentHealth = 1;
+      get
+      {
+        return currentHealth;
+      
+      }
+      set
+      {
+        currentHealth = value;
+      }
+    }
+    public int MaxHealth
+    {
+      get
+      {
+        return currentMaxHealth;
+      
+      }
+      set
+      {
+        currentMaxHealth = value;
+      }
+    }
+    public void UnitHealth(int health, int maxHealth)
+    {
+      currentHealth = health;
+      currentMaxHealth = maxHealth;
     }
 
-      void TakeDamage(int amount)
+    public void DmgUnit(int dmgAmount)
+    {
+      if (currentHealth > 0)
       {
-        currentHealth -= amount;
-
-        if(currentHealth <= 0)
-        {
-            anim.SetBool("IsDead", true);
-        }
+        currentHealth -= dmgAmount;
       }
-      private void OnTriggerEnter2D(Collider2D collision) 
+    }
+    public void HealUnit(int healAmount)
+    {
+      if (currentHealth < currentMaxHealth)
       {
-        if (collision.tag != "Bullet")
-        {
-            gameObject.transform.parent = collision.gameObject.transform;
-            Destroy(GetComponent<myRigidbody>());
-            GetComponent<myRigidBody>().enabled = false;
-        }
-        if (collision.tag == "Player")
-        {
-            var healthComponent = collision.GetComponent<Health>();
-            if(healthComponent != null)
-            {
-                healthComponent.TakeDamage(1);
-            }
-        }
-        //void Heal(int amount)
-      //{
-        //currentHealth -= amount;
-
-        //if(currentHealth <= maxHealth)
-        //{
-        //    currentHealth = maxHealth;
-        //}
-      //}
-
+        currentHealth += dmgAmount;
       }
+      if (currentHealth > currentMaxHealth)
+      {
+        currentHealth = currentMaxHealth;
+      }
+    }
+  
 }

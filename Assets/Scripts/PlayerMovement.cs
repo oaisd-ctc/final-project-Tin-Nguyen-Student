@@ -5,11 +5,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 10f;
+    
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
-    
+    private Vector2 moveDirection;
+    public float moveSpeed = 1f;
+
+    Vector2 movement;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -29,13 +32,18 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Update()
-    {
-        if (!isAlive) { return; }
-        Run();
-        FlipSprite();
+    {if (!isAlive) { return; }
         Die();
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+        myAnimator.SetFloat("Horizontal", movement.x);
+        myAnimator.SetFloat("Vertical", movement.y);
+        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
     }
-
+    void FixedUpdate()
+    {
+        myRigidbody.MovePosition(myRigidbody.position + movement * moveSpeed);
+    }
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
@@ -48,36 +56,14 @@ public class PlayerMovement : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
-    void Run()
-    {
-        Vector2 playerVelocity = new Vector2 (moveInput.x * runSpeed, myRigidbody.velocity.y);
-        myRigidbody.velocity = playerVelocity;
-
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-        myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
-
-    }
-
-    void FlipSprite()
-    {
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-
-        if (playerHasHorizontalSpeed)
-        {
-            transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
-        }
-    }
-
 
     void Die()
     {
         if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
         {
             isAlive = false;
-            myAnimator.SetTrigger("isDying");
-            myRigidbody.velocity = deathKick;
+          myAnimator.SetTrigger("IsDead");
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
-        }
+       }
     }
-
 }

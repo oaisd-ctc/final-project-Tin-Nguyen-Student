@@ -345,10 +345,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443585628ecbde648bd8ec5e97dfadf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 8
   deathKick: {x: 1, y: 1}
   bullet: {fileID: 0}
   gun: {fileID: 1850679159098398021}
+  moveSpeed: 0.167
 --- !u!114 &5943343497490040318
 MonoBehaviour:
   m_ObjectHideFlags: 0

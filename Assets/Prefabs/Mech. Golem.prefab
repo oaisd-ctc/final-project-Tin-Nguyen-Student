@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2232509286157518241}
   - component: {fileID: 2232509286157518242}
   - component: {fileID: 2232509286157518245}
+  - component: {fileID: 9142511355239559631}
+  - component: {fileID: 742374925928322367}
   m_Layer: 10
   m_Name: Mech. Golem
   m_TagString: Untagged
@@ -183,3 +185,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &9142511355239559631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232509286157518243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentMaxHealth: 35
+  currentHealth: 35
+  dmgAmount: 2
+  anim: {fileID: 0}
+--- !u!114 &742374925928322367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232509286157518243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285e598e8c168e34cad2bc99e6dca7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}

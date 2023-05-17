@@ -10,10 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
     private Vector2 moveDirection;
-    public float moveSpeed = 5f;
+    public float moveSpeed = 1f;
 
     Vector2 movement;
-    Rigidbody2D rb;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -33,17 +32,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Update()
-    {
-        ProcessInputs();
-        if (!isAlive) { return; }
+    {if (!isAlive) { return; }
         Die();
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
         myAnimator.SetFloat("Horizontal", movement.x);
         myAnimator.SetFloat("Vertical", movement.y);
         myAnimator.SetFloat("Speed", movement.sqrMagnitude);
     }
     void FixedUpdate()
     {
-        Move();
+        myRigidbody.MovePosition(myRigidbody.position + movement * moveSpeed);
     }
     void OnFire(InputValue value)
     {
@@ -57,27 +56,14 @@ public class PlayerMovement : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
-    void ProcessInputs()
-    {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        
-        moveDirection = new Vector2(moveX, moveY).normalized;
-    }
-    void Move ()
-    {
-        myRigidbody.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-    }
 
     void Die()
     {
         if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
         {
             isAlive = false;
-            myAnimator.SetTrigger("isDying");
-            myRigidbody.velocity = deathKick;
+          myAnimator.SetTrigger("IsDead");
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
-        }
+       }
     }
-
 }

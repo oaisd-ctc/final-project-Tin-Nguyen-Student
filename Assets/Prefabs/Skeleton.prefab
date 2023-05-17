@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -992405161731128902}
   - component: {fileID: -5682275164483074038}
   - component: {fileID: 58026782637045717}
+  - component: {fileID: 3495707138973209458}
   m_Layer: 10
   m_Name: Skeleton
   m_TagString: Untagged
@@ -183,3 +184,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+--- !u!114 &3495707138973209458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2517600773115219331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentMaxHealth: 3
+  currentHealth: 3
+  dmgAmount: 1
+  anim: {fileID: 0}

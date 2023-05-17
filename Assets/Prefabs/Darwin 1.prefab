@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 5943343497490040319}
   - component: {fileID: 5943343497490040317}
   - component: {fileID: -7955696484223960087}
+  - component: {fileID: 6098134620031408932}
   m_Layer: 7
   m_Name: Darwin 1
   m_TagString: Player
@@ -314,11 +315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443585628ecbde648bd8ec5e97dfadf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 8
   deathKick: {x: 1, y: 1}
   bullet: {fileID: 6716316407649412483, guid: aa433fe93c2a9f841b6ee218cbdb819b, type: 3}
   gun: {fileID: 6236441181143689558, guid: ec88a4c3dd240cf4b9f760214aa66dd2, type: 3}
-  moveSpeed: 5
+  moveSpeed: 0.167
 --- !u!114 &5943343497490040318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,3 +396,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentMaxHealth: 3
+  currentHealth: 3
+  dmgAmount: 1
+  anim: {fileID: 0}
+--- !u!114 &6098134620031408932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5943343497490040261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285e598e8c168e34cad2bc99e6dca7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 2162420044488023625, guid: e3fc992ef415341418969eb82945a42b, type: 3}

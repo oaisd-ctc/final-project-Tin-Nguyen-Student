@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     public int currentMaxHealth;
     public int currentHealth;
+    public int dmgAmount;
     Rigidbody2D myRigidbody;
     public Animator anim;
     Rigidbody2D rb;

@@ -5,14 +5,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 10f;
+    
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
+    private Vector2 moveDirection;
     public float moveSpeed = 5f;
 
     Vector2 movement;
-    
+    Rigidbody2D rb;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -33,14 +34,17 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        ProcessInputs();
         if (!isAlive) { return; }
-        Run();
         Die();
         myAnimator.SetFloat("Horizontal", movement.x);
         myAnimator.SetFloat("Vertical", movement.y);
         myAnimator.SetFloat("Speed", movement.sqrMagnitude);
     }
-
+    void FixedUpdate()
+    {
+        Move();
+    }
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
@@ -53,11 +57,16 @@ public class PlayerMovement : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
-    void Run()
+    void ProcessInputs()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+        
+        moveDirection = new Vector2(moveX, moveY).normalized;
+    }
+    void Move ()
+    {
+        myRigidbody.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
 
     void Die()

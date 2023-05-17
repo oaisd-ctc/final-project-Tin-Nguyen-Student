@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1008735342060490387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850679159098398021}
+  m_Layer: 7
+  m_Name: Barrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1850679159098398021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008735342060490387}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.155, y: 0.006, z: -9.9075}
+  m_LocalScale: {x: 0.50006396, y: 0.59382147, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5943343496571155241}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5943343496571155242
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +61,8 @@ Transform:
   m_LocalPosition: {x: 0.165, y: -0.237, z: 0}
   m_LocalScale: {x: 1.9997442, y: 1.6840078, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1850679159098398021}
   m_Father: {fileID: 5943343497490040315}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -94,7 +126,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5943343496571155242}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -164,10 +196,8 @@ GameObject:
   - component: {fileID: 5943343497490040318}
   - component: {fileID: 5943343497490040319}
   - component: {fileID: 5943343497490040317}
-  - component: {fileID: -7955696484223960087}
-  - component: {fileID: 6098134620031408932}
   m_Layer: 7
-  m_Name: Darwin 1
+  m_Name: Darwin (New)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,13 +211,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5943343497490040261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.46, y: -4.49, z: -0.029174417}
+  m_LocalPosition: {x: -5.7538795, y: -4.400115, z: -0.029174417}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5943343496571155241}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5943343497490040260
 SpriteRenderer:
@@ -315,10 +345,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443585628ecbde648bd8ec5e97dfadf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 8
   deathKick: {x: 1, y: 1}
-  bullet: {fileID: 6716316407649412483, guid: aa433fe93c2a9f841b6ee218cbdb819b, type: 3}
-  gun: {fileID: 6236441181143689558, guid: ec88a4c3dd240cf4b9f760214aa66dd2, type: 3}
-  moveSpeed: 0.167
+  bullet: {fileID: 0}
+  gun: {fileID: 1850679159098398021}
 --- !u!114 &5943343497490040318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,32 +414,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &-7955696484223960087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5943343497490040261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentMaxHealth: 3
-  currentHealth: 3
-  dmgAmount: 1
-  anim: {fileID: 0}
---- !u!114 &6098134620031408932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5943343497490040261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 285e598e8c168e34cad2bc99e6dca7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 2162420044488023625, guid: e3fc992ef415341418969eb82945a42b, type: 3}

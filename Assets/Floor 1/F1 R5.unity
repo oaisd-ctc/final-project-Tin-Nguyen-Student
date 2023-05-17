@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &25363104 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-  m_PrefabInstance: {fileID: 5943343497515272027}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &117268523
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +198,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2067965965
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.65384614, y: 0.65384614, z: 0}
@@ -4330,8 +4325,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 25363104}
-  m_Follow: {fileID: 25363104}
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5.16
@@ -4494,7 +4489,7 @@ Transform:
   - {fileID: 239037661}
   - {fileID: 1371861735}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1749546516
 GameObject:
@@ -5729,37 +5724,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3611013439324711221, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3611013439324711221, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4062578936499284272, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_Name
-      value: Darwin
+      value: Darwin 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5943343497490040312, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 952562801}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.5
+      value: -5.7538795
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.33
+      value: -4.400115
       objectReference: {fileID: 0}
     - target: {fileID: 5943343497490040315, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5793,10 +5772,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5943343497490040319, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

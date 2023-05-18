@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5656edd05754474ebb60020883ec890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 3
   maxHealth: 3
 --- !u!114 &3495707138973209458
 MonoBehaviour:
@@ -231,4 +231,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
   speed: 1
-  distanceBetween: 0
+  distanceBetween: 15

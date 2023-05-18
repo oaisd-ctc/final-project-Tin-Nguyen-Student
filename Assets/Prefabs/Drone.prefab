@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5668556310889987092}
   - component: {fileID: 5180664275546853940}
   - component: {fileID: 1696755570327568402}
+  - component: {fileID: 7724253142642059727}
   m_Layer: 10
   m_Name: Drone
   m_TagString: Untagged
@@ -216,3 +217,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &7724253142642059727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066053297943158047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0679165427d2b784fb2e984ff53a7c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+  speed: 1
+  distanceBetween: 15

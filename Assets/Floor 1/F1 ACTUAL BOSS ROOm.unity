@@ -679,6 +679,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1444874561, guid: 80426ddc99056ec45b911ba1cc041ad5, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 2137613992}
     - target: {fileID: 118613293344510123, guid: 80426ddc99056ec45b911ba1cc041ad5, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -6466,7 +6470,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3584906, g: 0.33650768, b: 0.33650768, a: 1}
   m_Origin: {x: -17, y: -14, z: 0}
   m_Size: {x: 22, y: 19, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -6493,6 +6497,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
   m_PrefabInstance: {fileID: 555816866}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137613992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645708383, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+  m_PrefabInstance: {fileID: 555816866}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137613991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b02d3ee4c18eb14e8f1b7d02df12e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3454838624867236404
 PrefabInstance:
   m_ObjectHideFlags: 0

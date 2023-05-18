@@ -88,6 +88,8 @@ GameObject:
   - component: {fileID: 2060980893291572483}
   - component: {fileID: 7757860505919790124}
   - component: {fileID: 3795984286916678395}
+  - component: {fileID: 1444874562}
+  - component: {fileID: 1444874561}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -109,7 +111,7 @@ RectTransform:
   m_Children:
   - {fileID: 1654260797754517574}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -178,6 +180,34 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1444874562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118613293344510123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb77e3c8018cee4c88abaef796b7e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  fillImage: {fileID: 0}
+--- !u!114 &1444874561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118613293344510123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9037cd097aeb0984d95ab3541cef1fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 204704720116251451}
+  playerHealth: {fileID: 0}
 --- !u!1 &4300134419039333940
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,8 +244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561, y: 575}
-  m_SizeDelta: {x: 790.83, y: 98.5155}
+  m_AnchoredPosition: {x: -544, y: 454}
+  m_SizeDelta: {x: 790.83, y: 109.433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204704720116251451
 MonoBehaviour:

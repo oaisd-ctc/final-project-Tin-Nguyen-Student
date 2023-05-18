@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField] bool isPlayer;
     [SerializeField] int health = 50;
 
      void OnTriggerEnter2D(Collider2D other)
@@ -80,5 +81,8 @@ public class Health : MonoBehaviour
         currentHealth = currentMaxHealth;
       }
     }
-  
+  public int GetHealth()
+    {
+        return currentHealth;
+    }
 }

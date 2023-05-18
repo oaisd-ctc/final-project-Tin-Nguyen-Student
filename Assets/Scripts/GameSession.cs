@@ -26,6 +26,7 @@ public class GameSession : MonoBehaviour
         }
     }
 
+
     void Start() 
     {
         livesText.text = playerLives.ToString();

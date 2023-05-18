@@ -4454,6 +4454,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1005515026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
+  m_PrefabInstance: {fileID: 236659770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077249802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8576509269626777432, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
@@ -4473,6 +4478,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   maxHealth: 50
+--- !u!114 &1077249811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077249802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0679165427d2b784fb2e984ff53a7c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1005515026}
+  speed: 1
+  distanceBetween: 15
 --- !u!1 &1469748865
 GameObject:
   m_ObjectHideFlags: 0
@@ -5192,7 +5212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511054937740604162, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2
+      value: -10.27
       objectReference: {fileID: 0}
     - target: {fileID: 4511054937740604162, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5231,6 +5251,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7934467881751764683, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7934467881751764683, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
       propertyPath: m_Color.b
       value: 0.20367567
       objectReference: {fileID: 0}
@@ -5253,4 +5277,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8576509269626777432, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1077249803}
+    - targetCorrespondingSourceObject: {fileID: 8576509269626777432, guid: 36039d39f2b30844c860b658f49659c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1077249811}
   m_SourcePrefab: {fileID: 100100000, guid: 36039d39f2b30844c860b658f49659c9, type: 3}

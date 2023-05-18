@@ -387,7 +387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39646d8e678774981aaf04b02c044c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 23
+  sceneBuildIndex: 21
 --- !u!114 &221471029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1201,7 +1201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1256,8 +1256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}
 --- !u!1 &458450089 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7429715464127469567, guid: 33cd0efd30020e641925884f91285257, type: 3}
@@ -1275,8 +1273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,7 +1359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: -1e-45, z: 0, w: 1}
+  m_LocalRotation: {x: 3e-45, y: -1e-45, z: 0, w: 1}
   m_LocalPosition: {x: -5.7538795, y: -4.400115, z: -10.029175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3998,11 +3994,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1 &837144421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5943343497490040261, guid: 1a0bcdedf5df0d14d882cc887ebdbc9e, type: 3}
-  m_PrefabInstance: {fileID: 1340108795}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1136116930 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7429715464127469567, guid: 33cd0efd30020e641925884f91285257, type: 3}
@@ -4020,8 +4011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}
 --- !u!1001 &1202598043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4072,7 +4061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4127,8 +4116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}
 --- !u!1001 &1340108795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5178,7 +5165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5773,7 +5760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.018547058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8778325308046443113, guid: 33cd0efd30020e641925884f91285257, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5828,8 +5815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}
 --- !u!1 &2133612974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7429715464127469567, guid: 33cd0efd30020e641925884f91285257, type: 3}
@@ -5847,5 +5832,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b048b7e63a21cc249acba130a9e00e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 837144421}
-  respawnPoint: {fileID: 0}

@@ -5342,8 +5342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5656edd05754474ebb60020883ec890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 24
-  maxHealth: 24
+  health: 69
+  maxHealth: 69
 --- !u!1001 &1486740509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5364,17 +5364,21 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.2924528
       objectReference: {fileID: 0}
+    - target: {fileID: 5736350659069561841, guid: da50a5815c3235044bfd45a839bece4f, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5736350659069561843, guid: da50a5815c3235044bfd45a839bece4f, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5736350659069561843, guid: da50a5815c3235044bfd45a839bece4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.75
+      value: -11.75
       objectReference: {fileID: 0}
     - target: {fileID: 5736350659069561843, guid: da50a5815c3235044bfd45a839bece4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.61
+      value: -1.06
       objectReference: {fileID: 0}
     - target: {fileID: 5736350659069561843, guid: da50a5815c3235044bfd45a839bece4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6598,7 +6602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39646d8e678774981aaf04b02c044c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 12
+  sceneBuildIndex: 11
 --- !u!114 &3454838624867236410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6611,7 +6615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39646d8e678774981aaf04b02c044c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 12
+  sceneBuildIndex: 11
 --- !u!114 &3454838624867236411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6624,7 +6628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39646d8e678774981aaf04b02c044c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 12
+  sceneBuildIndex: 11
 --- !u!114 &3454838624867236412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6637,4 +6641,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39646d8e678774981aaf04b02c044c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 12
+  sceneBuildIndex: 11
